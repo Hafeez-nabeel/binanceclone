@@ -1,0 +1,143 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Barlow" sans-serif;
+  line-height: 1.7;
+  color: #516171;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700 !important;
+  color: #092032;
+}
+a {
+  color: #092032;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+img {
+  width: 100%;
+}
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.bg-cover {
+  background-position: center !important;
+  background-size: cover !important;
+}
+
+/* Top Navigation bar */
+.top-nav {
+  background-color: #ff4d29;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.top-nav p {
+  margin-bottom: 0;
+  display: inline-block;
+  margin-right: 16px;
+  color: #fff;
+}
+.top-nav i,
+.top-nav span {
+  vertical-align: middle;
+}
+.social-links a {
+  width: 34px;
+  height: 34px;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  font-size: 18px;
+}
+.social-links a:hover {
+  background-color: #fff;
+  color: #ff4d29;
+}
+
+/* Menu bar navigation */
+.navbar {
+  box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+}
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link:active {
+  color: #ff4d29;
+}
+/* navbar logo  */
+.navbar-brand {
+  font-weight: 700;
+  font-size: 25px;
+  color: #092032;
+}
+.navbar-brand span {
+  color: #ff4d29;
+}
+
+/*  nav button */
+.btn {
+  padding: 5px 20px;
+  font-weight: 500;
+}
+.btn-brand {
+  background-color: #ff4d29;
+  color: #fff;
+  border-color: #ff4d29;
+}
+.btn-brand:hover {
+  background-color: #d43a1b;
+  color: #fff;
+}
+/* ____________________________________Ends Navigation Section__________________________________________ */
+
+/* ____________________________________Slider__________________________________________ */
+.slide1 {
+  background: linear-gradient(rgba(9, 32, 50, 0.3), rgba(9, 32, 50, 0.6)), url(../images/bg_banner1.jpg);
+}
+.slide2 {
+  background: linear-gradient(rgba(9, 32, 50, 0.3), rgba(9, 32, 50, 0.6)), url(../images/bg_banner2.jpg);
+  position: relative;
+}
+/* ____________________________________Carousal__________________________________________ */
+
+#hero-slider .owl-prev,
+#hero-slider .owl-next {
+  /* z-index: 5; */
+  position: absolute;
+  top: 50%;
+  width: 60px;
+  height: 60px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+  transition: all 0.3s ease;
+  border-radius: 100%;
+  margin-top: -30px;
+}
+#hero-slider .owl-prev:hover,
+#hero-slider .owl-next:hover {
+  background-color: #ff4d29;
+}
+#hero-slider .owl-prev {
+  left: 0;
+}
+#hero-slider .owl-next {
+  right: 0;
+}
+
+/* ____________________________________About Section__________________________________________ */
+.info-box {
+  display: flex;
+}
+.info-box img {
+  width: 90px;
+  margin-right: 20px;
+}
