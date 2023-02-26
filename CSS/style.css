@@ -1,5 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap");
 
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: "IBM Plex Sans", sans-serif;
 }
@@ -110,4 +113,85 @@ a {
 /* Table images */
 #table-img img {
   width: 32px;
+}
+
+/* port */
+.port {
+  background-color: #fcd535;
+  padding: 8px 60px;
+  border-radius: 5px;
+}
+
+/* info box */
+.info-box {
+  display: flex;
+}
+.info-box img {
+  width: 150px;
+  height: 100px;
+}
+.box-image img {
+  width: 250px;
+  height: 500px;
+}
+
+/* Groth bussines */
+.bg-growth {
+  background-color: #fafafa;
+  margin-right: 30px;
+  width: 350px !important;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.bg-growth:hover {
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%) !important;
+}
+.grow-m {
+  margin-bottom: 150px;
+}
+#rewards img {
+  width: 40px;
+  height: 40px;
+}
+#rewards span {
+  color: #43a66d;
+}
+#rewards i {
+  background-color: #e6e4e4;
+  border-radius: 100%;
+  padding: 5px;
+}
+.reward-hover {
+  background-color: #fafafa;
+}
+.reward-hover:hover {
+  border: 1px solid #f0b90b;
+  border-radius: 5px;
+  background-color: #ffff;
+}
+
+/* android */
+.android {
+  background-color: #fafafa;
+}
+.down-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+}
+/* help */
+#help a {
+  color: #fcd535;
+}
+/* footer
+ */
+#logofooter svg {
+  color: grey;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+#logofooter svg:hover {
+  color: #000000;
 }
